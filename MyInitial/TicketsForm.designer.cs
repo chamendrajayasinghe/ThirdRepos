@@ -95,6 +95,7 @@
             this.radBalcony.TabIndex = 6;
             this.radBalcony.Text = "Balcony";
             this.radBalcony.UseVisualStyleBackColor = true;
+            this.radBalcony.CheckedChanged += new System.EventHandler(this.radBalcony_CheckedChanged);
             // 
             // radGeneral
             // 
